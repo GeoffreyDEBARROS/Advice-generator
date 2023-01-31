@@ -16,7 +16,7 @@ body {
 }
 .card {
     background: hsl(217, 19%, 24%);
-    width: 600px;
+    max-width: 600px;
     min-height: 200px;
     display: flex;
     flex-direction: column;
@@ -56,3 +56,28 @@ button:hover {
 button:active{
     transform: translateY(30px) scale(0.85);
 }
+/*   MEDIA QUERIES   */
+
+ @media screen and (max-width:620px) {
+    .card {
+        width: 80%;
+    }
+    #separator{
+        width: 90%;
+    }
+ }
+
+ @media screen and (max-width:500px) {
+    .card {
+        width: 85%;
+    }
+    #separator{
+        width: 85%;
+    }
+    h3 {
+        font-size: 0.6rem;
+    }
+    h1 {
+        font-size: 20px;
+    }
+ }
