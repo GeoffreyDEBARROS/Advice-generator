@@ -28,15 +28,13 @@ h3 {
     color: hsl(150, 100%, 66%);
     letter-spacing: 4px;
     font-size: 0.8rem;
+    display: inline-block;
 }
 h1 {
     color: hsl(193, 38%, 86%);
     text-align: center;
     margin: 20px 20px 30px 20px;
     font-size: 28px;
-}
-#separator {
-    /* padding: 20px; */
 }
 button {
     transform: translateY(30px);
